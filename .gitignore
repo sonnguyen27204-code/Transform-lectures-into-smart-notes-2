@@ -1,0 +1,52 @@
+public/index.php
+public/.htaccess
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# AI Lecture Notes specific
+/storage/app/public/lectures/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/*.log
+bootstrap/cache/*.php
+!bootstrap/cache/.gitkeep
+
+# User uploads / personal files
+cookies.txt
+*.m4a
+*.mp3
+*.wav
+*.ogg
+*.webm
+*.mp4
+
+# Local dev scripts
+install-php.ps1
+setup.bat
+setup.ps1
+start.bat
+start.ps1
+
+# Temp files
+check.php
+test_db.php
+test_groq.php
